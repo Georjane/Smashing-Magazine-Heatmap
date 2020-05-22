@@ -95,13 +95,13 @@ nav input {
   background-color: white;
   margin-right: 30px;
   transform: rotate(-15deg);
-  transition: 0.8s ease-in-out;
+    transform-origin:  left bottom;
+  transition: 0.3s ease-in-out;
   border-radius: 5px;
 }
 
 .article-head > img:hover {
   transform: rotate(0deg);
-  /* transform-origin:  left bottom; */
 }
 
 .article-one > article > h1 {
@@ -129,6 +129,7 @@ nav input {
 
 .article-two {
   display: flex;
+  background-color: rgb(200, 200, 200);
 }
 
 .article-two h1, h3, p {
@@ -138,6 +139,7 @@ nav input {
 .article-two p {
   font-size: 20px;
   line-height: 30px;
+  padding: 20px;
 }
 
 .arrow {
@@ -145,6 +147,59 @@ nav input {
   width: 25%;
   text-align: center;
   padding: 20px;
-  background-color: red;
+}
 
+.article-two > article {
+  transition: 0.4s ease-in-out;
+}
+
+.article-two > article:hover {
+  transform: scale(110%);
+  background-color: #666;
+}
+
+.article-two > article:hover > .arrow {
+  background-color:#333;
+}
+
+.ad-holder {
+  background-color: rgb(220, 220, 220);
+}
+
+.ad-div {
+  background-color: rgb(39, 38, 38);
+  width: 60%;
+  float: right;
+  margin-right: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  color: white;
+  padding: 0 70px;
+}
+
+.ad-div h1, p, button {
+  padding: 20px 0;
+}
+
+.ad-div > h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.ad-div > p {
+  text-align : center;
+}
+
+.ad-div > button {
+  padding: 15px 30px;
+  color: black;
+  border : none;
+  border-radius: 5px;
+  margin-top: 20px;
 }
