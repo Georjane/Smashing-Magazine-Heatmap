@@ -16,7 +16,7 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(189, 190, 192);
+  background-color: rgb(68, 69, 70);
   height: 100px;
   padding: 20px 40px;
   align-items: center;
@@ -34,6 +34,11 @@ nav ul {
   width: 50%;
   height: 25px;
   background-color: gray;
+  display: flex;
+  list-style-type: none;
+  color: white;
+  justify-content: space-around;
+  font-size: 20px;
 }
 
 nav input {
@@ -41,6 +46,7 @@ nav input {
   height: 60px;
   background-color: rgb(39, 38, 38);
   border-radius: 10px;
+  color: white;
 }
 
 .article-one {
@@ -119,4 +125,26 @@ nav input {
 
 .article-one > article:last-child {
   background-color: rgb(120, 120, 120);
+}
+
+.article-two {
+  display: flex;
+}
+
+.article-two h1, h3, p {
+  padding: 10px 25px;
+}
+
+.article-two p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.arrow {
+  font-size: 30px;
+  width: 25%;
+  text-align: center;
+  padding: 20px;
+  background-color: red;
+
 }
