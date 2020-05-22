@@ -203,3 +203,61 @@ nav input {
   border-radius: 5px;
   margin-top: 20px;
 }
+
+
+.ad-holder > article {
+  width: 33.33%;
+  float: left;
+  transition: 0.4s ease-in-out;
+  height: 95vh;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  position: relative;
+}
+
+.ad-holder h1, h3, p {
+  padding: 10px 25px;
+}
+
+.ad-holder p {
+  font-size: 20px;
+  line-height: 30px;
+  padding: 20px;
+}
+
+.ad-holder > article:hover {
+  transform: scale(110%);
+  background-color: #666;
+}
+
+/* .arrow {
+  font-size: 30px;
+  width: 25%;
+  text-align: center;
+  padding: 20px;
+} */
+
+.ad-holder .arrow2 {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.ad-holder > article:hover > .arrow {
+  background-color:#333;
+}
+
+.see-articles-div {
+  background-color: rgb(200, 200, 200);
+  text-align: center;
+  padding: 30px 0;
+}
+
+.see-articles-div > p {
+  display: inline-block;
+  padding: 10px 10px;
+  border-bottom: 3px solid gray;
+}
+
