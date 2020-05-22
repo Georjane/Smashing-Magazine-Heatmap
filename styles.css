@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  display: grid;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(189, 190, 192);
+  height: 100px;
+  padding: 20px 40px;
+  align-items: center;
+}
+
+nav img {
+  width: 5%;
+  height: 50px;
+  background-color: gray;
+  border-radius: 6px;
+
+}
+
+nav ul {
+  width: 50%;
+  height: 25px;
+  background-color: gray;
+}
+
+nav input {
+  width: 25%;
+  height: 60px;
+  background-color: rgb(39, 38, 38);
+  border-radius: 10px;
+}
+
+  
