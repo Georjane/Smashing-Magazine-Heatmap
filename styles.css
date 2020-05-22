@@ -43,4 +43,80 @@ nav input {
   border-radius: 10px;
 }
 
-  
+.article-one {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 650px 500px;
+  position: relative;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.miss-div {
+  font-size: 35px;
+  position: absolute;
+  top: 170px;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  z-index : 1;
+  color: white;
+  background-color: rgb(39, 38, 38);
+  border-radius: 10px;
+  font-weight: bold;
+  width: 600px;
+  padding: 0;
+}
+
+.article-one > article {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  color: white;
+  padding: 40px 50px;
+}
+
+.article-head {
+  display: flex;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.article-head > img {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  margin-right: 30px;
+  transform: rotate(-15deg);
+  transition: 0.8s ease-in-out;
+  border-radius: 5px;
+}
+
+.article-head > img:hover {
+  transform: rotate(0deg);
+  /* transform-origin:  left bottom; */
+}
+
+.article-one > article > h1 {
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+
+.article-one > article:first-child {
+  background-color: rgb(50, 50, 50);
+  padding-top: 150px;
+}
+
+.article-one > article:nth-child(2) {
+  background-color: rgb(90, 90, 90);
+  padding-top: 150px;
+}
+
+.article-one > article:nth-child(3) {
+  background-color: rgb(30, 30, 30);
+}
+
+.article-one > article:last-child {
+  background-color: rgb(120, 120, 120);
+}
