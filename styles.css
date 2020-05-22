@@ -32,13 +32,13 @@ nav img {
 
 nav ul {
   width: 50%;
-  height: 25px;
+  height: 30px;
   background-color: gray;
   display: flex;
   list-style-type: none;
   color: white;
   justify-content: space-around;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 nav input {
@@ -231,13 +231,6 @@ nav input {
   background-color: #666;
 }
 
-/* .arrow {
-  font-size: 30px;
-  width: 25%;
-  text-align: center;
-  padding: 20px;
-} */
-
 .ad-holder .arrow2 {
   z-index: 1;
   position: absolute;
@@ -261,3 +254,42 @@ nav input {
   border-bottom: 3px solid gray;
 }
 
+.click {
+  background-color: rgb(60, 60, 60);
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.click > .clickhead, .clickbody {
+  padding: 20px 20px;
+  margin: auto;
+  width: 60%;
+}
+
+.click > .clickhead {
+  font-size: 50px;
+}
+
+.click > .clickbody {
+  font-size: 20px;
+}
+
+.click > button {
+  background-color: white;
+  width: 20%;
+  margin-bottom: 60px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.click > img {
+  width: 60%;
+  height: 60vh;
+  background-color: rgb(30, 30, 30);
+  margin-bottom: 30px;
+}
