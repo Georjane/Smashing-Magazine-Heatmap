@@ -70,14 +70,12 @@ nav input {
   background-color: rgb(39, 38, 38);
   border-radius: 10px;
   font-weight: bold;
-  width: 600px;
-  padding: 0;
+  padding: 10px 10px;
 }
 
 .article-one > article {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   justify-content: center;
   color: white;
   padding: 40px 50px;
@@ -222,6 +220,7 @@ nav input {
   margin-bottom: 40px;
   margin-left: 20px;
   position: relative;
+  padding-top: 20px;
 }
 
 .ad-holder h1, h3, p {
@@ -411,4 +410,12 @@ nav input {
   position: absolute;
   right: 100px;
   top: -30px;
+}
+
+.article-two > article > ul > li,
+.article-list > li {
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 10px;
+  list-style-position: inside;
 }
