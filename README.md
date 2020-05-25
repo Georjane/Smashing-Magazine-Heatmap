@@ -6,7 +6,11 @@
 
 ![screenshot](./images/screenshot.jpg)
 
-
+This project covers the following HTML and CSS3 concepts
+- Design and UX
+- Floats and Positioning
+- Flex and Grid
+- Backgrounds
 
 ## Built With
 - HTML
