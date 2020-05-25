@@ -89,13 +89,23 @@ nav input {
   align-items: center;
 }
 
+.tilted {
+  transform: rotate(-15deg);
+  transform-origin:  left bottom;
+  transition: 0.3s ease-in-out;
+}
+
+.tilted:hover {
+  transform: rotate(0deg);
+}
+
 .article-head > img {
   width: 70px;
   height: 70px;
   background-color: white;
   margin-right: 30px;
   transform: rotate(-15deg);
-    transform-origin:  left bottom;
+  transform-origin:  left bottom;
   transition: 0.3s ease-in-out;
   border-radius: 5px;
 }
@@ -154,7 +164,7 @@ nav input {
 }
 
 .article-two > article:hover {
-  transform: scale(110%);
+  transform: scale(1.1);
   background-color: #666;
 }
 
@@ -227,7 +237,7 @@ nav input {
 }
 
 .ad-holder > article:hover {
-  transform: scale(110%);
+  transform: scale(1.1);
   background-color: #666;
 }
 
@@ -367,4 +377,42 @@ nav input {
 
 .article-details > p {
   line-height: 30px;
+}
+
+.design-system-div {
+  background-color: #333;
+  color: white;
+  padding: 30px 0;
+  position: relative;
+}
+
+.design-system-div h1, p, button {
+  padding-top: 30px;
+  margin-left: 40px;
+}
+
+.design-system-div h1 {
+  font-size: 50px;
+}
+
+.design-system-div p {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.design-system-div button {
+  width: 400px;
+  border-radius: 10px;
+  font-size: 25px;
+  padding: 15px 30px;
+  margin-bottom: 20px;
+}
+
+.book {
+  width: 250px;
+  height: 350px;
+  background-color: #666;
+  position: absolute;
+  right: 100px;
+  top: -30px;
 }
