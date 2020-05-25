@@ -59,7 +59,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- This project was originally taken from [The Odin project](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-backgrounds-and-gradients)
+- This project was originally taken from [The Odin project](https://www.theodinproject.com/courses/html5-and-css3/lessons/design-teardown)
 - The project was inspired by the [Microverse](https://www.microverse.org/) program.
 
 ## 📝 License
