@@ -1,10 +1,11 @@
 # Smashing Magazine Heatmap
+> This is a Heatmap of the Smashing Magazine Webpage built with HTML and CSS3.
 
-> In this project, my partner and me designed a 'Heat-Map' of the original Webpage of [Smashing Magazine](https://www.smashingmagazine.com/) with the aim of portraying our understanding of Visual Hierarchy used in designing Webpages to enhance User Experience (UX) as we dig deeper into our learning of the HTML and CSS3 concept of Design and User Experience (Design and UX).
+![screenshot](./images/screenshot.png)
 
->The page uses GrayScale coloring and differentiation to show the prominence of different regions of the page to users where a darker grayscale color of a region indicates more prominence and attraction of users' attention to that particular region, and otherwise for lighter grayscale colored regions.
+In this project, my partner and I designed a 'Heat-Map' of the original Webpage of [Smashing Magazine](https://www.smashingmagazine.com/) with the aim of portraying our understanding of Visual Hierarchy used in designing Webpages to enhance User Experience (UX) as we dig deeper into our learning of the HTML and CSS3 concept of Design and User Experience (Design and UX).
 
-![screenshot](./images/screenshot.jpg)
+The page uses GrayScale coloring and differentiation to show the prominence of different regions of the page to users where a darker grayscale color of a region indicates more prominence and attraction of users' attention to that particular region, and otherwise for lighter grayscale colored regions.
 
 This project covers the following HTML and CSS3 concepts
 - Design and UX
@@ -18,7 +19,7 @@ This project covers the following HTML and CSS3 concepts
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/RNtaate/roy-apple-page-project/a9efc12cfbb87b3c7ac9b39be3693978bdd77bb0/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Georjane/Smashing-Magazine-Heatmap/631b820ebda7534fdbc7370030e0902fc92aba3b/index.html)
 
 
 ## Getting Started
