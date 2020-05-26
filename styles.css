@@ -27,7 +27,6 @@ nav img {
   height: 50px;
   background-color: gray;
   border-radius: 6px;
-
 }
 
 nav ul {
@@ -55,7 +54,6 @@ nav input {
   grid-template-rows: 650px 500px;
   position: relative;
   justify-content: center;
-  /* align-items: center; */
 }
 
 .miss-div {
@@ -65,7 +63,7 @@ nav input {
   left: 50%;
   transform: translate(-50%);
   text-align: center;
-  z-index : 1;
+  z-index: 1;
   color: white;
   background-color: rgb(39, 38, 38);
   border-radius: 10px;
@@ -89,12 +87,20 @@ nav input {
 
 .tilted {
   transform: rotate(-15deg);
-  transform-origin:  left bottom;
+  transform-origin: left bottom;
   transition: 0.3s ease-in-out;
 }
 
 .tilted:hover {
   transform: rotate(0deg);
+}
+
+footer img {
+  width: 130px;
+  height: 200px;
+  background-color: #666;
+  position: absolute;
+  bottom: 50px;
 }
 
 .article-head > img {
@@ -105,9 +111,47 @@ nav input {
   border-radius: 5px;
 }
 
+.article-two h2,
+h3,
+p {
+  padding: 10px 25px;
+}
+
+footer > p {
+  line-height: 30px;
+  padding-bottom: 40px;
+}
+
+.article-details > h2,
+.article-details > p {
+  padding: 10px 0;
+}
+
 .article-one > article > h2 {
   margin-bottom: 30px;
   font-size: 35px;
+}
+
+.article-two > article {
+  transition: 0.4s ease-in-out;
+}
+
+.ad-holder > article {
+  width: 33.33%;
+  float: left;
+  transition: 0.4s ease-in-out;
+  height: 95vh;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  position: relative;
+  padding-top: 20px;
+}
+
+.bottom-articles > article {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .article-one > article:first-child {
@@ -133,11 +177,7 @@ nav input {
   background-color: rgb(200, 200, 200);
 }
 
-.article-two h2, h3, p {
-  padding: 10px 25px;
-}
-
-.article-two > article >  h2 {
+.article-two > article > h2 {
   padding-top: 50px;
 }
 
@@ -155,17 +195,13 @@ nav input {
   padding: 20px;
 }
 
-.article-two > article {
-  transition: 0.4s ease-in-out;
-}
-
 .article-two > article:hover {
   transform: scale(1.1);
   background-color: #666;
 }
 
 .article-two > article:hover > .arrow {
-  background-color:#333;
+  background-color: #333;
 }
 
 .ad-holder {
@@ -189,7 +225,9 @@ nav input {
   padding: 0 70px;
 }
 
-.ad-div h1, p, button {
+.ad-div h1,
+.ad-div p,
+button {
   padding: 20px 0;
 }
 
@@ -199,31 +237,29 @@ nav input {
 }
 
 .ad-div > p {
-  text-align : center;
+  text-align: center;
+}
+
+.sad-cat-img {
+  background-color: #666;
+  width: 50%;
+  height: 400px;
+  border-radius: 50%;
+  margin-left: 5%;
 }
 
 .ad-div > button {
   padding: 15px 30px;
   color: black;
-  border : none;
+  border: none;
   border-radius: 5px;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-
-.ad-holder > article {
-  width: 33.33%;
-  float: left;
-  transition: 0.4s ease-in-out;
-  height: 95vh;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  margin-left: 20px;
-  position: relative;
-  padding-top: 20px;
-}
-
-.ad-holder h1, h3, p {
+.ad-holder h1,
+.ad-holder h3,
+.ad-holder p {
   padding: 10px 25px;
 }
 
@@ -233,9 +269,36 @@ nav input {
   padding: 20px;
 }
 
-.ad-holder > article > h3, .ad-holder > article > p {
+.see-articles-div > p {
+  display: inline-block;
+  padding: 10px 10px;
+  border-bottom: 3px solid gray;
+}
+
+.article-details > p {
+  line-height: 30px;
   margin-left: 0;
-  padding: 20px 0px;
+}
+
+.design-system-div h1,
+.design-system-div p,
+.design-system-div button {
+  padding-top: 30px;
+  margin-left: 40px;
+}
+
+.design-system-div p {
+  font-size: 20px;
+  line-height: 40px;
+  padding-right: 400px;
+  padding-left: 0;
+  padding-bottom: 30px;
+}
+
+.ad-holder > article > h3,
+.ad-holder > article > p {
+  margin-left: 0;
+  padding: 20px 0;
 }
 
 .ad-holder > article:hover {
@@ -251,7 +314,7 @@ nav input {
 }
 
 .ad-holder > article:hover > .arrow {
-  background-color:#333;
+  background-color: #333;
 }
 
 .see-articles-div {
@@ -260,10 +323,8 @@ nav input {
   padding: 50px 0;
 }
 
-.see-articles-div > p {
-  display: inline-block;
-  padding: 10px 10px;
-  border-bottom: 3px solid gray;
+.light-div {
+  background-color: rgb(220, 220, 220);
 }
 
 .click {
@@ -276,7 +337,8 @@ nav input {
   align-items: center;
 }
 
-.click > .clickhead, .clickbody {
+.click > .clickhead,
+.clickbody {
   padding: 20px 20px;
   margin: auto;
   width: 60%;
@@ -321,7 +383,8 @@ nav input {
   margin-right: 30px;
 }
 
-.person-div > article > h3, .person-div > article > p {
+.person-div > article > h3,
+.person-div > article > p {
   padding-left: 0;
 }
 
@@ -346,13 +409,7 @@ nav input {
   padding: 50px 50px 0 50px;
 }
 
-.bottom-articles > article {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-
-.bottom-articles > article > img{
+.bottom-articles > article > img {
   width: 300px;
   height: 100px;
   margin-right: 30px;
@@ -362,15 +419,6 @@ nav input {
   margin-top: 20px;
 }
 
-.article-details > h2, .article-details > p {
-  padding: 10px 0 ;
-}
-
-.article-details > p {
-  line-height: 30px;
-  margin-left: 0;
-}
-
 .design-system-div {
   background-color: #333;
   color: white;
@@ -378,21 +426,8 @@ nav input {
   position: relative;
 }
 
-.design-system-div h1, p, button {
-  padding-top: 30px;
-  margin-left: 40px;
-}
-
 .design-system-div h1 {
   font-size: 50px;
-}
-
-.design-system-div p {
-  font-size: 20px;
-  line-height: 40px;
-  padding-right: 400px;
-  padding-left: 0;
-  padding-bottom: 30px;
 }
 
 .design-system-div button {
@@ -412,22 +447,6 @@ nav input {
   top: -30px;
 }
 
-.article-two > article > ul > li,
-.article-list > li {
-  font-size: 20px;
-  padding: 10px;
-  margin-left: 10px;
-  list-style-position: inside;
-}
-
-footer {
-text-align: center;
-background-color: #333;
-color: white;
-padding-top: 70px;
-position: relative;
-}
-
 footer > ul {
   display: flex;
   flex-wrap: wrap;
@@ -444,9 +463,24 @@ footer > ul > li {
   margin-right: 5px;
 }
 
-footer > p {
-  line-height: 30px;
-  padding-bottom: 40px;
+.article-list > li,
+.article-two > article > ul > li {
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 10px;
+  list-style-position: inside;
+}
+
+.article-two > article > ul {
+  padding-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding-top: 70px;
+  position: relative;
 }
 
 .footer-links {
@@ -457,14 +491,6 @@ footer > p {
   color: white;
   line-height: 30px;
   padding-right: 10px;
-}
-
-footer img {
-  width: 130px;
-  height: 200px;
-  background-color: #666;
-  position: absolute;
-  bottom: 50px;
 }
 
 .left-img {
