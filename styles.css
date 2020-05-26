@@ -419,3 +419,58 @@ nav input {
   margin-left: 10px;
   list-style-position: inside;
 }
+
+footer {
+text-align: center;
+background-color: #333;
+color: white;
+padding-top: 70px;
+position: relative;
+}
+
+footer > ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 30px;
+}
+
+footer > ul > li {
+  padding: 20px 5px 0 7px;
+  font-size: 25px;
+  list-style-position: inside;
+  margin-right: 5px;
+}
+
+footer > p {
+  line-height: 30px;
+  padding-bottom: 40px;
+}
+
+.footer-links {
+  margin-bottom: 60px;
+}
+
+.footer-links > a {
+  color: white;
+  line-height: 30px;
+  padding-right: 10px;
+}
+
+footer img {
+  width: 130px;
+  height: 200px;
+  background-color: #666;
+  position: absolute;
+  bottom: 50px;
+}
+
+.left-img {
+  left: 150px;
+}
+
+.right-img {
+  right: 150px;
+}
